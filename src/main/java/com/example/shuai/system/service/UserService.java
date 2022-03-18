@@ -1,7 +1,7 @@
-package com.example.shuai.system.user.service;
+package com.example.shuai.system.service;
 
 import com.example.shuai.mapper.UserMapper;
-import com.example.shuai.system.user.entity.User;
+import com.example.shuai.system.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,5 +18,9 @@ public class UserService {
 
     public User findById(Integer id) {
         return userMapper.findById(id);
+    }
+
+    public User selectByName(String name) {
+        return userMapper.selectByName(name);
     }
 }
