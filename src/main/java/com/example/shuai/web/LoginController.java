@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * @author zhangshuaishuai
  * @description 登录
- * @date 2022/1/17 21:36
+ * @date 2022/1/17 21:37
  */
 @Controller
 public class LoginController {
@@ -32,13 +32,13 @@ public class LoginController {
     @ResponseBody
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public String printAdmin(){
-        return "如果你看见这句话，说明你有ROLE_ADMIN角色";
+        return "如果你看见这句话，说明你有ROLE_ADMIN角色！";
     }
 
     @RequestMapping("/user")
     @ResponseBody
     @PreAuthorize("hasRole('ROLE_USER')")
     public String printUser() {
-        return "如果你看见这句话，说明你有ROLE_USER角色";
+        return "如果你看见这句话，说明你有ROLE_USER角色！";
     }
 }
