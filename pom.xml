@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>springboot-shiro</artifactId>
+	<artifactId>springboot-admin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-shiro</name>
 	<description>springboot-shiro</description>
