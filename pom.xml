@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>springboot-shiro</artifactId>
+	<artifactId>springboot-admin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-shiro</name>
 	<description>springboot-shiro</description>
@@ -52,6 +52,10 @@
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>2.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
 		<dependency>
